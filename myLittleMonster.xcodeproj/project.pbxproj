@@ -14,6 +14,8 @@
 		F612D9B71BB86EA8008ED28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F612D9B51BB86EA8008ED28F /* LaunchScreen.storyboard */; };
 		F612D9C21BB86EA8008ED28F /* myLittleMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612D9C11BB86EA8008ED28F /* myLittleMonsterTests.swift */; };
 		F612D9CD1BB86EA8008ED28F /* myLittleMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612D9CC1BB86EA8008ED28F /* myLittleMonsterUITests.swift */; };
+		F6C1D8BC1BB8A62900BFFC82 /* dragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1D8BB1BB8A62900BFFC82 /* dragImg.swift */; settings = {ASSET_TAGS = (); }; };
+		F6C1D8BE1BB8AB8C00BFFC82 /* monsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1D8BD1BB8AB8C00BFFC82 /* monsterImg.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F612D9C81BB86EA8008ED28F /* myLittleMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myLittleMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612D9CC1BB86EA8008ED28F /* myLittleMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLittleMonsterUITests.swift; sourceTree = "<group>"; };
 		F612D9CE1BB86EA8008ED28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C1D8BB1BB8A62900BFFC82 /* dragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImg.swift; sourceTree = "<group>"; };
+		F6C1D8BD1BB8AB8C00BFFC82 /* monsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F612D9B31BB86EA8008ED28F /* Assets.xcassets */,
 				F612D9B51BB86EA8008ED28F /* LaunchScreen.storyboard */,
 				F612D9B81BB86EA8008ED28F /* Info.plist */,
+				F6C1D8BB1BB8A62900BFFC82 /* dragImg.swift */,
+				F6C1D8BD1BB8AB8C00BFFC82 /* monsterImg.swift */,
 			);
 			path = myLittleMonster;
 			sourceTree = "<group>";
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C1D8BE1BB8AB8C00BFFC82 /* monsterImg.swift in Sources */,
 				F612D9AF1BB86EA8008ED28F /* ViewController.swift in Sources */,
+				F6C1D8BC1BB8A62900BFFC82 /* dragImg.swift in Sources */,
 				F612D9AD1BB86EA8008ED28F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +491,7 @@
 				F612D9D31BB86EA8008ED28F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F612D9D41BB86EA8008ED28F /* Build configuration list for PBXNativeTarget "myLittleMonsterTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				F612D9D61BB86EA8008ED28F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F612D9D71BB86EA8008ED28F /* Build configuration list for PBXNativeTarget "myLittleMonsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				F612D9D91BB86EA8008ED28F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
