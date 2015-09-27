@@ -10,7 +10,7 @@ import Foundation
 
 import UIKit
 
-class monsterImg: UIImageView {
+class MonsterImg: UIImageView {
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
