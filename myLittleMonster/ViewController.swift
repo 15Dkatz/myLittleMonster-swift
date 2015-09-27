@@ -17,18 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var imgArray = [UIImage]()
-        for var x = 1; x <= 4; x++ {
-            let img = UIImage(named: "idle\(x).png")
-            imgArray.append(img!)
-        }
         
-        //ANIMATIONS!!!! WOOOT
-        
-        monsterImage.animationImages = imgArray
-        monsterImage.animationDuration = 0.8
-        monsterImage.animationRepeatCount = 0
-        monsterImage.startAnimating()
+
         
     }
 

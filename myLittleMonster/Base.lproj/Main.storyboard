@@ -59,7 +59,7 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="u0m-5x-rpB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="u0m-5x-rpB" customClass="monsterImg" customModule="myLittleMonster" customModuleProvider="target">
                                 <rect key="frame" x="-67" y="227" width="604" height="328"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="328" id="0MI-MX-u2l"/>
