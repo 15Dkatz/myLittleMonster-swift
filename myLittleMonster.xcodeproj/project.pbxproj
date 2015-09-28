@@ -16,6 +16,11 @@
 		F612D9CD1BB86EA8008ED28F /* myLittleMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612D9CC1BB86EA8008ED28F /* myLittleMonsterUITests.swift */; };
 		F6C1D8BC1BB8A62900BFFC82 /* dragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1D8BB1BB8A62900BFFC82 /* dragImg.swift */; settings = {ASSET_TAGS = (); }; };
 		F6C1D8BE1BB8AB8C00BFFC82 /* monsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1D8BD1BB8AB8C00BFFC82 /* monsterImg.swift */; settings = {ASSET_TAGS = (); }; };
+		F6C1D8C41BB8F55600BFFC82 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6C1D8BF1BB8F55600BFFC82 /* bite.wav */; settings = {ASSET_TAGS = (); }; };
+		F6C1D8C51BB8F55600BFFC82 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6C1D8C01BB8F55600BFFC82 /* cave-music.mp3 */; settings = {ASSET_TAGS = (); }; };
+		F6C1D8C61BB8F55600BFFC82 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6C1D8C11BB8F55600BFFC82 /* death.wav */; settings = {ASSET_TAGS = (); }; };
+		F6C1D8C71BB8F55600BFFC82 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6C1D8C21BB8F55600BFFC82 /* heart.wav */; settings = {ASSET_TAGS = (); }; };
+		F6C1D8C81BB8F55600BFFC82 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6C1D8C31BB8F55600BFFC82 /* skull.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		F612D9CE1BB86EA8008ED28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6C1D8BB1BB8A62900BFFC82 /* dragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImg.swift; sourceTree = "<group>"; };
 		F6C1D8BD1BB8AB8C00BFFC82 /* monsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monsterImg.swift; sourceTree = "<group>"; };
+		F6C1D8BF1BB8F55600BFFC82 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		F6C1D8C01BB8F55600BFFC82 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		F6C1D8C11BB8F55600BFFC82 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		F6C1D8C21BB8F55600BFFC82 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		F6C1D8C31BB8F55600BFFC82 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 				F612D9B81BB86EA8008ED28F /* Info.plist */,
 				F6C1D8BB1BB8A62900BFFC82 /* dragImg.swift */,
 				F6C1D8BD1BB8AB8C00BFFC82 /* monsterImg.swift */,
+				F6C1D8C91BB8F56400BFFC82 /* sounds */,
 			);
 			path = myLittleMonster;
 			sourceTree = "<group>";
@@ -129,6 +140,18 @@
 				F612D9CE1BB86EA8008ED28F /* Info.plist */,
 			);
 			path = myLittleMonsterUITests;
+			sourceTree = "<group>";
+		};
+		F6C1D8C91BB8F56400BFFC82 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1D8BF1BB8F55600BFFC82 /* bite.wav */,
+				F6C1D8C01BB8F55600BFFC82 /* cave-music.mp3 */,
+				F6C1D8C11BB8F55600BFFC82 /* death.wav */,
+				F6C1D8C21BB8F55600BFFC82 /* heart.wav */,
+				F6C1D8C31BB8F55600BFFC82 /* skull.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C1D8C81BB8F55600BFFC82 /* skull.wav in Resources */,
+				F6C1D8C41BB8F55600BFFC82 /* bite.wav in Resources */,
+				F6C1D8C61BB8F55600BFFC82 /* death.wav in Resources */,
+				F6C1D8C71BB8F55600BFFC82 /* heart.wav in Resources */,
+				F6C1D8C51BB8F55600BFFC82 /* cave-music.mp3 in Resources */,
 				F612D9B71BB86EA8008ED28F /* LaunchScreen.storyboard in Resources */,
 				F612D9B41BB86EA8008ED28F /* Assets.xcassets in Resources */,
 				F612D9B21BB86EA8008ED28F /* Main.storyboard in Resources */,

@@ -33,8 +33,8 @@
                                     <constraint firstAttribute="height" constant="128" id="fyr-vq-PgP"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="r9i-qh-txW">
-                                <rect key="frame" x="209" y="59" width="182" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="r9i-qh-txW">
+                                <rect key="frame" x="209" y="59" width="180" height="50"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="QtO-tu-TTo">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -44,14 +44,14 @@
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="LQ1-Xr-PWc">
-                                        <rect key="frame" x="66" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="65" y="0.0" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="0g4-FK-Ajf"/>
                                             <constraint firstAttribute="height" constant="50" id="I8e-XT-abU"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="odi-zC-NVZ">
-                                        <rect key="frame" x="132" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="130" y="0.0" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="byy-SS-Wiz"/>
                                             <constraint firstAttribute="width" constant="50" id="nUg-3b-Syl"/>
@@ -100,11 +100,12 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z3P-NV-fxq" secondAttribute="bottom" id="7CE-Wr-IyK"/>
                             <constraint firstItem="u3Y-Ol-dNm" firstAttribute="top" secondItem="r9i-qh-txW" secondAttribute="bottom" constant="20" id="7EF-VC-azh"/>
                             <constraint firstItem="u0m-5x-rpB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-87" id="DaR-4o-Y7M"/>
+                            <constraint firstItem="FOx-UV-qDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUw-kB-ZfE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TcR-pd-qFY" secondAttribute="bottom" id="Kdx-k6-iuU"/>
                             <constraint firstAttribute="trailing" secondItem="TcR-pd-qFY" secondAttribute="trailing" id="RN6-iz-FtO"/>
                             <constraint firstItem="FOx-UV-qDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UgT-GW-TuW"/>
                             <constraint firstItem="r9i-qh-txW" firstAttribute="centerY" secondItem="FOx-UV-qDh" secondAttribute="centerY" id="bSu-Xh-qln"/>
-                            <constraint firstItem="r9i-qh-txW" firstAttribute="centerX" secondItem="FOx-UV-qDh" secondAttribute="centerX" id="bjr-H6-GoW"/>
+                            <constraint firstItem="r9i-qh-txW" firstAttribute="centerX" secondItem="FOx-UV-qDh" secondAttribute="centerX" constant="-8" id="bjr-H6-GoW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="u3Y-Ol-dNm" secondAttribute="trailing" constant="16" id="fHG-C1-0Bj"/>
                             <constraint firstItem="Z3P-NV-fxq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lze-n6-uLL"/>
                             <constraint firstAttribute="trailing" secondItem="TcR-pd-qFY" secondAttribute="trailing" id="mZS-9Y-EBc"/>
@@ -115,6 +116,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="UgT-GW-TuW"/>
                                 <exclude reference="fHG-C1-0Bj"/>
                                 <exclude reference="ydQ-b3-HPU"/>
                             </mask>
